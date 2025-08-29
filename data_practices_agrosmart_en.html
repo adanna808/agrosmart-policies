@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AgroSmart Exchange — Data Practices & Deletion</title>
+<meta name="description" content="How AgroSmart Exchange collects, uses, retains, and deletes data, and how users can request deletion.">
+<style>
+  :root{--ink:#111;--muted:#555;--bg:#f8faf8;--card:#fff;--border:#e6ece8;--green:#2E7D32}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,'Noto Sans',sans-serif;line-height:1.6}
+  .wrap{max-width:900px;margin:40px auto;padding:0 16px}
+  h1{font-size:1.8rem;margin:0 0 10px}
+  h2{font-size:1.15rem;margin:22px 0 8px}
+  p,li{font-size:1rem}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin:14px 0}
+  .badge{display:inline-block;background:var(--green);color:#fff;border-radius:8px;padding:3px 8px;font-size:.85rem;margin-left:6px}
+  code{background:#eef5ef;padding:2px 6px;border-radius:6px}
+  a{color:var(--green)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>AgroSmart Exchange — Data Practices & Deletion <span class="badge">v1</span></h1>
+    <p><strong>Developer:</strong> Elizabeth Ndubisi-Ukandu • <a href="mailto:lizukandu@gmail.com">lizukandu@gmail.com</a></p>
+
+    <div class="card">
+      <h2>What we collect</h2>
+      <ul>
+        <li><strong>Phone number (optional)</strong> — only if you add it to a marketplace listing so buyers can contact you (e.g., via WhatsApp).</li>
+        <li><strong>General location (optional)</strong> — free-text you type (e.g., town, market name). <em>No precise GPS.</em></li>
+        <li><strong>Photos (optional)</strong> — product photos for marketplace listings.</li>
+        <li><strong>Crash/diagnostic data (optional)</strong> — only if analytics/crash reporting is enabled, to improve stability and performance.</li>
+      </ul>
+      <p><strong>Not collected:</strong> precise location (GPS), contacts, financial/banking data, health data, messages, or device identifiers.</p>
+    </div>
+
+    <div class="card">
+      <h2>Why we collect it</h2>
+      <ul>
+        <li><strong>App functionality</strong> — to create and display your listings and records.</li>
+        <li><strong>Analytics (optional)</strong> — to diagnose crashes and improve app performance.</li>
+      </ul>
+      <p>Data is <strong>encrypted in transit</strong> when sent to our services (HTTPS). We do <strong>not sell</strong> your data. We do <strong>not share</strong> your data with third parties except service providers acting on our behalf (e.g., cloud hosting), bound by confidentiality.</p>
+    </div>
+
+    <div class="card">
+      <h2>Your choices</h2>
+      <ul>
+        <li>Providing phone number, location text, and photos is <strong>optional</strong>. You can use the app without them.</li>
+        <li>You can edit or delete your local records at any time from within the app.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How to request data deletion</h2>
+      <p>You can request deletion of your account-related data (e.g., synced listings or uploads) by contacting us:</p>
+      <ol>
+        <li>Email: <a href="mailto:lizukandu@gmail.com">lizukandu@gmail.com</a></li>
+        <li>Subject: <code>Data Deletion Request — AgroSmart Exchange</code></li>
+        <li>Include: your name, the phone number or email used in the app (if any), and a brief description of the data to delete.</li>
+      </ol>
+      <p><strong>Timeline:</strong> we aim to confirm within 7 days and complete deletion within 30 days unless we must retain data to comply with law or prevent fraud.</p>
+      <p><strong>On‑device data:</strong> data you keep only on your device can be removed by uninstalling the app or by using in‑app delete controls.</p>
+    </div>
+
+    <div class="card">
+      <h2>Retention</h2>
+      <p>We keep optional data (e.g., listing phone/location/photos) only as long as needed to provide the feature or as required by law. You may request deletion at any time using the process above.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Questions? Email <a href="mailto:lizukandu@gmail.com">lizukandu@gmail.com</a>.</p>
+      <p>Related pages: 
+        <a href="privacy_policy_agrosmart_en.html">Privacy Policy</a> · 
+        <a href="terms_agrosmart_en.html">Terms of Service</a>
+      </p>
+      <p>Last updated: <span id="d"></span></p>
+    </div>
+  </div>
+<script>document.getElementById('d').textContent=new Date().toISOString().slice(0,10)</script>
+</body>
+</html>
